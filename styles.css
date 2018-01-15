@@ -1,0 +1,53 @@
+@import "reset.css";
+
+body {
+  background-color: lightgray;
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+  background-image: url('van.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  display: flex;
+  margin: 1.8rem;
+  list-style-type: none;
+  font-size: 1.4rem;
+}
+
+.nav__name {
+  text-align: left;
+  width: 25%;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.nav--link:hover {
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: .5rem;
+}
+
+.nav__links li {
+  margin: 0 1rem;
+}
+
+.nav__info {
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.nav--contact {
+  margin-right: 2rem;
+}
+
+.nav--info:hover {
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: .5rem;
+}
+
